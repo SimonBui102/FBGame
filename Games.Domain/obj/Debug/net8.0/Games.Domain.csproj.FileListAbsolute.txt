@@ -1,0 +1,12 @@
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\bin\Debug\net8.0\Games.Domain.deps.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\bin\Debug\net8.0\Games.Domain.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\bin\Debug\net8.0\Games.Domain.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.AssemblyInfoInputs.cache
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.AssemblyInfo.cs
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.csproj.CoreCompileInputs.cache
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.sourcelink.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\refint\Games.Domain.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\Games.Domain.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Domain\obj\Debug\net8.0\ref\Games.Domain.dll
