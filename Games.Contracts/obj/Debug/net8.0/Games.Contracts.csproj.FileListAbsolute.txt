@@ -1,0 +1,12 @@
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\bin\Debug\net8.0\Games.Contracts.deps.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\bin\Debug\net8.0\Games.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\bin\Debug\net8.0\Games.Contracts.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.AssemblyInfoInputs.cache
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.AssemblyInfo.cs
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.csproj.CoreCompileInputs.cache
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.sourcelink.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\refint\Games.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\Games.Contracts.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Contracts\obj\Debug\net8.0\ref\Games.Contracts.dll
