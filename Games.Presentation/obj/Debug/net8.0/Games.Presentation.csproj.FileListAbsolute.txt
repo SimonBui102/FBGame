@@ -171,3 +171,12 @@ E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\obj\Debug\net8.0\refint\Games
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\obj\Debug\net8.0\Games.Presentation.pdb
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\obj\Debug\net8.0\Games.Presentation.genruntimeconfig.cache
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\obj\Debug\net8.0\ref\Games.Presentation.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Mapster.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Mapster.Core.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Mapster.DependencyInjection.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\MediatR.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Application.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Application.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Contracts.pdb

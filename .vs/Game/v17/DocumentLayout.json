@@ -3,56 +3,20 @@
   "WorkspaceRootPath": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\queries\\gamedefinition\\getgamedefinitionbyid\\getgamedefinitionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\queries\\gamedefinition\\getgamedefinitionbyid\\getgamedefinitionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\queries\\gamedefinition\\getgamedefinitionbyid\\getgamedefinitionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\queries\\gamedefinition\\getgamedefinitionbyid\\getgamedefinitionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\queries\\gamedefinition\\getgamedefinitions\\getgamedefinitionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\queries\\gamedefinition\\getgamedefinitions\\getgamedefinitionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\queries\\gamedefinition\\getgamedefinitions\\getgamedefinitionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\queries\\gamedefinition\\getgamedefinitions\\getgamedefinitionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.contracts\\responses\\getgamedefinitionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|solutionrelative:games.contracts\\responses\\getgamedefinitionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.contracts\\responses\\getgamedefinitionbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|solutionrelative:games.contracts\\responses\\getgamedefinitionbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53FAD52A-C7CA-48F0-AAF3-7B0B56D5C37D}|Games.Domain\\Games.Domain.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.domain\\entities\\gamerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53FAD52A-C7CA-48F0-AAF3-7B0B56D5C37D}|Games.Domain\\Games.Domain.csproj|solutionrelative:games.domain\\entities\\gamerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53FAD52A-C7CA-48F0-AAF3-7B0B56D5C37D}|Games.Domain\\Games.Domain.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.domain\\entities\\gamedefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53FAD52A-C7CA-48F0-AAF3-7B0B56D5C37D}|Games.Domain\\Games.Domain.csproj|solutionrelative:games.domain\\entities\\gamedefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.contracts\\requests\\gamedefinitions\\creategamedefinitionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|solutionrelative:games.contracts\\requests\\gamedefinitions\\creategamedefinitionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|solutionrelative:games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.contracts\\dtos\\gamedefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|solutionrelative:games.contracts\\dtos\\gamedefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,129 +25,49 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 627,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 447,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetGameDefinitionsQueryHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQueryHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQueryHandler.cs",
-              "RelativeToolTip": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "DocumentIndex": 2,
+              "Title": "CreateGameDefinitionRequest.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
+              "RelativeDocumentMoniker": "Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
+              "RelativeToolTip": "Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:31:03.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T10:37:53.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetGameDefinitionsQuery.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQuery.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQuery.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQuery.cs",
-              "RelativeToolTip": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitions\\GetGameDefinitionsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameRule.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Domain\\Entities\\GameRule.cs",
+              "RelativeDocumentMoniker": "Games.Domain\\Entities\\GameRule.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Domain\\Entities\\GameRule.cs",
+              "RelativeToolTip": "Games.Domain\\Entities\\GameRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:15:58.511Z",
+              "WhenOpened": "2025-05-01T10:32:11.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetGameDefinitionByIdQuery.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQuery.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQuery.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQuery.cs",
-              "RelativeToolTip": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:19:12.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetGameDefinitionByIdQueryHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQueryHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQueryHandler.cs",
-              "RelativeToolTip": "Games.Application\\Queries\\GameDefinition\\GetGameDefinitionById\\GetGameDefinitionByIdQueryHandler.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:22:56.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetGameDefinitionsResponse.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Responses\\GetGameDefinitionsResponse.cs",
-              "RelativeDocumentMoniker": "Games.Contracts\\Responses\\GetGameDefinitionsResponse.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Responses\\GetGameDefinitionsResponse.cs",
-              "RelativeToolTip": "Games.Contracts\\Responses\\GetGameDefinitionsResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:30:32.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetGameDefinitionByIdResponse.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Responses\\GetGameDefinitionByIdResponse.cs",
-              "RelativeDocumentMoniker": "Games.Contracts\\Responses\\GetGameDefinitionByIdResponse.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Responses\\GetGameDefinitionByIdResponse.cs",
-              "RelativeToolTip": "Games.Contracts\\Responses\\GetGameDefinitionByIdResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:20:59.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateGameDefinitionCommandHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
-              "RelativeToolTip": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAewCAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:39:52.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "GameDefinition.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Domain\\Entities\\GameDefinition.cs",
               "RelativeDocumentMoniker": "Games.Domain\\Entities\\GameDefinition.cs",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Domain\\Entities\\GameDefinition.cs",
               "RelativeToolTip": "Games.Domain\\Entities\\GameDefinition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:44:24.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T11:44:24.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateGameDefinitionCommand.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommand.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommand.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommand.cs",
-              "RelativeToolTip": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:38:07.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "GamesDbContext.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Infrastructure\\GamesDbContext.cs",
               "RelativeDocumentMoniker": "Games.Infrastructure\\GamesDbContext.cs",
@@ -191,44 +75,7 @@
               "RelativeToolTip": "Games.Infrastructure\\GamesDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T07:44:16.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameDefinitionDto.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Dtos\\GameDefinitionDto.cs",
-              "RelativeDocumentMoniker": "Games.Contracts\\Dtos\\GameDefinitionDto.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Dtos\\GameDefinitionDto.cs",
-              "RelativeToolTip": "Games.Contracts\\Dtos\\GameDefinitionDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:45:32.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MappingConfig.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Mappings\\MappingConfig.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Mappings\\MappingConfig.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Mappings\\MappingConfig.cs",
-              "RelativeToolTip": "Games.Application\\Mappings\\MappingConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:52:45.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Games.Application\\DependencyInjection.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Games.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:56:42.979Z"
+              "WhenOpened": "2025-04-28T07:44:16.538Z"
             }
           ]
         }

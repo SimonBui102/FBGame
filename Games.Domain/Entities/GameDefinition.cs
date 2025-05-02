@@ -14,6 +14,8 @@ namespace Games.Domain.Entities
 
         public DateTime CreateDate { get; set; }
 
+        public List<GameRule>? GameRules { get; set; }
+
 
     }
 }

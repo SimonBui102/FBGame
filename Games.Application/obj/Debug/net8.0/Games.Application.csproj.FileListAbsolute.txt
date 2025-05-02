@@ -10,3 +10,11 @@ E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\Games.Applica
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\refint\Games.Application.dll
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\Games.Application.pdb
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\ref\Games.Application.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Contracts.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Domain.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Infrastructure.dll
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Contracts.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Infrastructure.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\bin\Debug\net8.0\Games.Domain.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\Games.Application.csproj.AssemblyReference.cache
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Application\obj\Debug\net8.0\Games.Ap.2F810E50.Up2Date

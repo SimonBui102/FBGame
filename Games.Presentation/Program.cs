@@ -1,5 +1,6 @@
 using Games.Application;
 using Games.Infrastructure;
+using Games.Presentation.Modules;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -26,6 +27,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.AddGamesEndpoints();
 
 app.Run();
