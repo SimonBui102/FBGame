@@ -4,6 +4,7 @@ using Games.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Games.Infrastructure.Migrations
 {
     [DbContext(typeof(GamesDbContext))]
-    partial class GamesDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250502035913_AddRule")]
+    partial class AddRule
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,12 +43,6 @@ namespace Games.Infrastructure.Migrations
                     b.Property<string>("GameName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MaxNumber")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MinNumber")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -77,43 +74,6 @@ namespace Games.Infrastructure.Migrations
                     b.ToTable("GameRule");
                 });
 
-            modelBuilder.Entity("Games.Domain.Entities.GameSession", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<TimeSpan>("Duration")
-                        .HasColumnType("time");
-
-                    b.Property<DateTime>("EndTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("GameDefinitionId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("NumberOfCorrectAnswer")
-                        .HasColumnType("int");
-
-                    b.Property<int>("NumberOfIncorrectAnswer")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PlayerName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GameDefinitionId");
-
-                    b.ToTable("GameSession");
-                });
-
             modelBuilder.Entity("Games.Domain.Entities.GameRule", b =>
                 {
                     b.HasOne("Games.Domain.Entities.GameDefinition", "GameDefinition")
@@ -123,20 +83,9 @@ namespace Games.Infrastructure.Migrations
                     b.Navigation("GameDefinition");
                 });
 
-            modelBuilder.Entity("Games.Domain.Entities.GameSession", b =>
-                {
-                    b.HasOne("Games.Domain.Entities.GameDefinition", "GameDefinition")
-                        .WithMany("GameSessions")
-                        .HasForeignKey("GameDefinitionId");
-
-                    b.Navigation("GameDefinition");
-                });
-
             modelBuilder.Entity("Games.Domain.Entities.GameDefinition", b =>
                 {
                     b.Navigation("GameRules");
-
-                    b.Navigation("GameSessions");
                 });
 #pragma warning restore 612, 618
         }
