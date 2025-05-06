@@ -15,7 +15,11 @@ public class GetGameDefinitionsQueryHandler : IRequestHandler<GetGameDefinitions
     }
     public async Task<GetGameDefinitionsResponse> Handle(GetGameDefinitionsQuery request, CancellationToken cancellationToken)
     {
-        var gameDefinitions = await _gamesDbContext.GameDefinitions.ToListAsync(cancellationToken);
+        var gameDefinitions = await _gamesDbContext.GameDefinitions.Include( g => g.GameRules)
+            .ToListAsync(cancellationToken);
+
+        
+        
 
         return gameDefinitions.Adapt<GetGameDefinitionsResponse>();
 

@@ -1,7 +1,9 @@
 ﻿using Games.Application.Commands.GameDefinition.CreateGameDefinition;
+using Games.Application.Commands.GameSession.CreateGameSession;
 using Games.Application.Queries.GameDefinition.GetGameDefinitionById;
 using Games.Application.Queries.GameDefinition.GetGameDefinitions;
 using Games.Contracts.Requests.GameDefinitions;
+using Games.Contracts.Requests.GameSessions;
 using MediatR;
 
 namespace Games.Presentation.Modules;
@@ -31,12 +33,26 @@ public static class GamesModule
                 =>
             {
                 var command = new CreateGameDefinitionCommand(createGameDefinitionRequest.AuthorName,
-                    createGameDefinitionRequest.GameName);
+                    createGameDefinitionRequest.GameName, createGameDefinitionRequest.MinNumber, createGameDefinitionRequest.MaxNumber, createGameDefinitionRequest.Rules);
                 var result = await mediator.Send(command, ct);
                 return Results.Ok(result); 
 
 
             }).WithTags("Games");
+
+        app.MapPost("/api/gamesessions/{gameDefinitionId}",
+            async (IMediator mediator, int gameDefinitionId, CreateGameSessionRequest createGameSessionRequest,
+                    CancellationToken ct)
+                =>
+            {
+                var command = new CreateGameSessionCommand(createGameSessionRequest.PlayerName,
+                    createGameSessionRequest.Duration, gameDefinitionId);
+
+                var result = await mediator.Send(command, ct);
+                return Results.Ok(result);
+
+
+            }).WithTags("GameSession");
 
     }
 

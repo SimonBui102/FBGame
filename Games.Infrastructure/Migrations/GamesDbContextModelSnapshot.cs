@@ -74,7 +74,7 @@ namespace Games.Infrastructure.Migrations
 
                     b.HasIndex("GameDefinitionId");
 
-                    b.ToTable("GameRule");
+                    b.ToTable("GameRules");
                 });
 
             modelBuilder.Entity("Games.Domain.Entities.GameSession", b =>
@@ -111,7 +111,7 @@ namespace Games.Infrastructure.Migrations
 
                     b.HasIndex("GameDefinitionId");
 
-                    b.ToTable("GameSession");
+                    b.ToTable("GameSessions");
                 });
 
             modelBuilder.Entity("Games.Domain.Entities.GameRule", b =>

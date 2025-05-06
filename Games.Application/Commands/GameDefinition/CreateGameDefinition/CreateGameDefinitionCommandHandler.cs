@@ -15,11 +15,16 @@ public class CreateGameDefinitionCommandHandler: IRequestHandler<CreateGameDefin
     }
     public async Task<int> Handle(CreateGameDefinitionCommand request, CancellationToken cancellationToken)
     {
+
+
         var gameDefinition = new Domain.Entities.GameDefinition
         {
             AuthorName = request.AuthorName,
             GameName = request.GameName,
-            CreateDate = DateTime.Now.ToUniversalTime()
+            MinNumber = request.MinNumber,
+            MaxNumber = request.MaxNumber,
+            CreateDate = DateTime.Now.ToUniversalTime(),
+            GameRules = request.Rules.Select(rule => new GameRule{Divisor = rule.Divisor, Word = rule.Word}).ToList()
 
 
         };
@@ -28,7 +33,9 @@ public class CreateGameDefinitionCommandHandler: IRequestHandler<CreateGameDefin
         await _gamesDbContext.GameDefinitions.AddAsync(gameDefinition,cancellationToken);
         await _gamesDbContext.SaveChangesAsync(cancellationToken);
 
+    
         
+
 
         return gameDefinition.Id;
 

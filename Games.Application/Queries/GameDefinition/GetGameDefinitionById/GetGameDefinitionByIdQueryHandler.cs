@@ -17,6 +17,7 @@ public class GetGameDefinitionByIdQueryHandler : IRequestHandler<GetGameDefiniti
     public async Task<GetGameDefinitionByIdResponse> Handle(GetGameDefinitionByIdQuery request, CancellationToken cancellationToken)
     {
         var gameDefinition = await _gamesDbContext.GameDefinitions
+            .Include(g => g.GameRules)
             .FirstOrDefaultAsync(x => x.Id == request.id, cancellationToken);
 
         if (gameDefinition is null)

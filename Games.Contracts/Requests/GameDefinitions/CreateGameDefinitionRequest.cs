@@ -1,3 +1,5 @@
-﻿namespace Games.Contracts.Requests.GameDefinitions;
+﻿using Games.Contracts.Requests.GameRules;
 
-public record CreateGameDefinitionRequest(string AuthorName, string GameName);
+namespace Games.Contracts.Requests.GameDefinitions;
+
+public record CreateGameDefinitionRequest(string AuthorName, string GameName, int MinNumber, int MaxNumber, List<CreateGameRuleRequest> Rules);

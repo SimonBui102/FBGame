@@ -18,6 +18,9 @@ namespace Games.Infrastructure
         }
 
         public DbSet<GameDefinition> GameDefinitions { get; set; }
+        public DbSet<GameRule> GameRules { get; set; }
+        public DbSet<GameSession> GameSessions { get; set; }
+
 
 
     }
