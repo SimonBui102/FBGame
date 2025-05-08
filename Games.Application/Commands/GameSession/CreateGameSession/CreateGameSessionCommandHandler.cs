@@ -1,10 +1,13 @@
-﻿using Games.Infrastructure;
+﻿using Games.Application.Helpers;
+using Games.Contracts.Dtos;
+using Games.Contracts.Responses;
+using Games.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace Games.Application.Commands.GameSession.CreateGameSession;
 
-public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCommand, int>
+public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCommand, CreateGameSessionResponse>
 {
 
     private readonly GamesDbContext _gamesDbContext;
@@ -13,7 +16,7 @@ public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCo
     {
         _gamesDbContext = gamesDbContext;
     }
-    public async Task<int> Handle(CreateGameSessionCommand request, CancellationToken cancellationToken)
+    public async Task<CreateGameSessionResponse> Handle(CreateGameSessionCommand request, CancellationToken cancellationToken)
     {
 
         var gameDefinition =
@@ -43,7 +46,15 @@ public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCo
         await _gamesDbContext.GameSessions.AddAsync(newGameSession,cancellationToken);
         await _gamesDbContext.SaveChangesAsync(cancellationToken);
 
-        return newGameSession.Id;
+        var randomNumber =
+            RandomNumberHelper.GetNextUniqueRandomNumber(newGameSession.Id, gameDefinition.MinNumber,
+                gameDefinition.MaxNumber);
+        var createGameSessionDto = new CreateGameSessionDto(newGameSession.Id, newGameSession.PlayerName,
+            newGameSession.StartTime, newGameSession.EndTime, randomNumber);
+        var response = new CreateGameSessionResponse(createGameSessionDto);
+        
+
+        return response;
 
 
 
