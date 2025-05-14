@@ -1,5 +1,6 @@
 ﻿using Games.Application.Commands.GameDefinition.CreateGameDefinition;
 using Games.Application.Commands.GameSession.CreateGameSession;
+using Games.Application.Commands.GameSession.SubmitGameSessionAnswer;
 using Games.Application.Queries.GameDefinition.GetGameDefinitionById;
 using Games.Application.Queries.GameDefinition.GetGameDefinitions;
 using Games.Contracts.Requests.GameDefinitions;
@@ -53,6 +54,19 @@ public static class GamesModule
 
 
             }).WithTags("GameSession");
+
+        app.MapPost("/api/gamesessions/{gameSessionId}/guesses",
+            async (IMediator mediator, int gameSessionId, SubmitGameSessionAnswerRequest submitGameSessionAnswerRequest,
+                CancellationToken ct) =>
+            {
+                var command = new SubmitGameSessionAnswerCommand(gameSessionId,
+                    submitGameSessionAnswerRequest.RandomNumber, submitGameSessionAnswerRequest.PlayerAnswer);
+
+                var result = await mediator.Send(command, ct);
+
+                return Results.Ok(result);
+
+            }).WithTags("GameSessions");
 
     }
 
