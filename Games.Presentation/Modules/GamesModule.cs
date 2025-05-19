@@ -53,7 +53,7 @@ public static class GamesModule
                 return Results.Ok(result);
 
 
-            }).WithTags("GameSession");
+            }).WithTags("GameSessions");
 
         app.MapPost("/api/gamesessions/{gameSessionId}/guesses",
             async (IMediator mediator, int gameSessionId, SubmitGameSessionAnswerRequest submitGameSessionAnswerRequest,

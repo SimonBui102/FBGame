@@ -180,3 +180,8 @@ E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Applic
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Contracts.dll
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Application.pdb
 E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Games.Contracts.pdb
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Client\games\package-lock.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Client\games\package.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Client\games\tsconfig.app.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Client\games\tsconfig.json
+E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\bin\Debug\net8.0\Client\games\tsconfig.node.json

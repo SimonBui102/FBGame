@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Client\games\src\components\GameTable.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
@@ -14,12 +18,25 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.8.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Games.Infrastructure\Games.Infrastructure.csproj" />
     <ProjectReference Include="..\Games.Application\Games.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Client\games\public\" />
+    <Folder Include="Client\games\src\assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="Client\games\src\components\GameTable.tsx" />
   </ItemGroup>
 
 </Project>

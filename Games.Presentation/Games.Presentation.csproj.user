@@ -6,4 +6,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptCompile Update="Client\games\src\components\GameTable.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+  </ItemGroup>
 </Project>
