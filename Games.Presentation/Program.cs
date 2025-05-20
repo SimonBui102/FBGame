@@ -15,6 +15,16 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<GamesDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", policyBuilder =>
+    {
+        policyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:5173");
+
+    });
+
+});
+
 builder.Services.AddApplication();
 
 var app = builder.Build();
@@ -26,6 +36,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 app.AddGamesEndpoints();
 
