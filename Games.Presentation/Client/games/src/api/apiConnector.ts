@@ -40,7 +40,7 @@ const apiConnector = {
 
     },
 
-    getGameDefinitionById: async (gameDefinitionId: number): Promise<GameDefinitionDto | undefined> => {
+    getGameDefinitionById: async (gameDefinitionId: string): Promise<GameDefinitionDto | undefined> => {
 
         try {
 

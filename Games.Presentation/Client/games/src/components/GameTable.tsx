@@ -3,6 +3,7 @@ import apiConnector from "../api/apiConnector";
 import type { GameDefinitionDto } from "../models/gameDefinitionDto";
 import { useEffect, useState } from "react";
 import GameTableItem from "./GameTableItem";
+import { NavLink } from "react-router-dom";
 export default function GameTable() {
 
 
@@ -48,7 +49,7 @@ export default function GameTable() {
                     </tbody>
 
                 </table>
-                <Button floated="right" type="button" content = "Create Game Definition" positive/>
+                <Button as={NavLink} to="createGameDefinition" floated="right" type="button" content = "Create Game Definition" positive/>
             </Container>
 
 
