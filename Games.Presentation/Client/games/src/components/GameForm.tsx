@@ -94,7 +94,7 @@ export default function GameForm() {
                     {gameDefinition.rules.map((rule,idx) => (
                        
                             <FormGroup widths='equal' key={idx} style={{ display: 'flex', alignItems: 'flex-end' }} >
-                            <Form.Input label='Divisor' placeholder='Divisor' type='number' value={rule.divisor} onChange={(e) => handleRuleChange(idx, 'divisor', e.target.value)} width={ 6} />
+                            <Form.Input label='Divisor' placeholder='Divisor' type='number' value={rule.divisor.toString()} onChange={(e) => handleRuleChange(idx, 'divisor', e.target.value)} width={ 6} />
                             <Form.Input label='Word' placeholder='Word' value={rule.word} onChange={(e) => handleRuleChange(idx, 'word', e.target.value)} />
                             <Button type='button'  content="Delete" color='red'  onClick={ () => removeRule(idx)} />
                             </FormGroup>
