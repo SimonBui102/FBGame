@@ -4,6 +4,9 @@ import type { GameDefinitionDto } from "../models/gameDefinitionDto";
 import type  { GetGamesDefinitionResponse } from "../models/getGamesDefinitionResponse";
 import { API_BASE_URL } from "../../config.ts";
 import type { GetGameDefinitionByIdResponse } from "../models/getGameDefinitionByIdResponse.ts";
+import type { CreateGameSessionDto } from "../models/createGameSessionDto.ts";
+import type { GameSetupDto } from "../models/gameSetupDto.ts";
+import type { CreateGameSessionResponse } from "../models/createGameSessionResponse.ts";
 
 const apiConnector = {
 
@@ -34,6 +37,24 @@ const apiConnector = {
         } catch (error) {
             console.log(error);
             throw error;
+
+        }
+
+
+    },
+
+    createGameSession: async (gameSetup: GameSetupDto, gameDefinitionId: string): Promise<CreateGameSessionDto> => {
+
+        try {
+
+            const response = await axios.post<CreateGameSessionResponse>(`${API_BASE_URL}/gamesessions/${gameDefinitionId}`, gameSetup);
+            return response.data.createGameSessiondDto;
+
+        } catch (error) {
+
+            console.log(error);
+            throw (error);
+
 
         }
 

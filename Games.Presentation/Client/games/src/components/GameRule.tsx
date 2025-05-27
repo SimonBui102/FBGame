@@ -1,8 +1,10 @@
-﻿import {  useParams } from "react-router-dom";
-import { Button, Card, CardGroup, Form, Grid, GridColumn, GridRow, Header, Segment, Statistic, StatisticGroup, StatisticLabel, StatisticValue } from "semantic-ui-react";
+﻿import { useParams } from "react-router-dom";
+import { Button, Card, CardGroup, Form, Header } from "semantic-ui-react";
 import type { GameDefinitionDto } from "../models/gameDefinitionDto";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ChangeEvent } from "react";
 import apiConnector from "../api/apiConnector";
+import GamePlayLayOut from "./GamePlayLayout";
+import type { GameSetupDto } from "../models/gameSetupDto";
 
 export default function GameRule() {
 
@@ -22,6 +24,12 @@ export default function GameRule() {
 
     });
 
+    const [gameSetup, setGameSetup] = useState<GameSetupDto>({
+        playerName: '',
+        duration:0,
+
+    });
+
     useEffect(() => {
         if (id) { apiConnector.getGameDefinitionById(id).then(gameDefinition => setGameDefinition(gameDefinition!)); }
 
@@ -29,80 +37,65 @@ export default function GameRule() {
 
     }, [id]);
 
+    const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+
+        const { name, value } = event.target;
+
+        setGameSetup((s) => ({ ...s, [name]: name == 'duration' ? Number(value) : value }));
+
+    };
+
+    const handleSubmit = () => { console.log (gameSetup)}
+    const left = (
+        <CardGroup itemsPerRow="3" centered>
+
+            {gameDefinition.rules.map((r, index) => (
+
+                <Card key={index} style={{ 'boxShadow': '4px 2px 0px 4px' }}  >
+                    <Card.Content textAlign='center'>
+                        <Header as='h4'> {r.divisor} </Header>
+                        <Card.Description> {r.word}</Card.Description>
+
+                    </Card.Content>
+                </Card>
+
+            ))}
+
+
+
+
+
+
+
+        </CardGroup>
+
+    );
+
+    const right = (
+
+        <Form onSubmit={handleSubmit} autoComplete='off' className='ui inverted form'>
+            <Form.Input label="Player's Name: " placeholder='Name' name='playerName' value={ gameSetup.playerName} onChange={handleChange} />
+            <Form.Input label='Duration (s): ' type='number' name='duration' value={gameSetup.duration.toString()} onChange={handleChange} />
+            <Button floated='right' positive type='submit' content='Submit'></Button>
+
+
+        </Form>
+    
+    );
+
     return (
-        <>
-            <Segment clearing inverted>
-                <Grid celled>
-                    <GridRow centered>
-                        <Header as='h1' textAlign='center' inverted style={{ color: 'white' }}>
-                            {gameDefinition.gameName} <Header.Subheader > by {gameDefinition.authorName}</Header.Subheader>
-                        </Header>
-                    </GridRow>
-                    <GridRow columns={2}>
-                        <GridColumn width={10}>
-                            <GridRow>
-                                <Header as='h3' textAlign='center' style={{ color: 'white' }} >Number Range</Header>
-                                <StatisticGroup style={{ 'justifyContent': 'center', 'gap': '40px' }} size='mini' inverted>
-                                    <Statistic floated='right'>
-                                        <StatisticLabel>Min Number</StatisticLabel>
-                                        <StatisticValue>{gameDefinition.minNumber}</StatisticValue>
-                                    </Statistic>
-                                    <Statistic floated='left'>
-                                        <StatisticLabel>Max Number</StatisticLabel>
-                                        <StatisticValue>{gameDefinition.maxNumber}</StatisticValue>
-                                    </Statistic>
-                                </StatisticGroup>
-                            </GridRow>
 
-                        </GridColumn>
+        <GamePlayLayOut
+            pageTitle='Setup Area'
+            gameName={gameDefinition.gameName}
+            authorName={gameDefinition.authorName}
+            minNumber={gameDefinition.minNumber}
+            maxNumber={gameDefinition.maxNumber}
+            leftChild={left}
+            rightChild={right}
+        >
 
-                        <GridColumn width={6}>
-                            <Header as='h3' textAlign='center' style={{ color: 'white' }} >Setup Area</Header>
-                        </GridColumn>
-                    </GridRow>
-
-                    <GridRow columns={2}>
-                        <GridColumn width={10}>
-                            <Header as='h3' textAlign='center' style={{ color: 'white' }} >Rules</Header>
-                            <CardGroup itemsPerRow="3" centered>
-
-                                {gameDefinition.rules.map((r,index) => (
-
-                                    <Card key={index} style={{ 'boxShadow': '4px 2px 0px 4px' }}  >
-                                        <Card.Content textAlign='center'>
-                                            <Header as='h4'> {r.divisor} </Header>
-                                            <Card.Description> {r.word}</Card.Description>
-
-                                        </Card.Content>
-                                    </Card>
-
-                                ))}
-                                
-
- 
-     
-
-
-
-                            </CardGroup>
-
-                        </GridColumn>
-
-                        <GridColumn  width={6}>
-
-                            <Form autoComplete='off' className='ui inverted form'>
-                                <Form.Input label="Player's Name: " placeholder='Name' name='playerName' />
-                                <Form.Input label='Duration (s): ' type='number' name='duration' />
-                                <Button floated='right' positive type='submit' content='Submit'></Button>
-
-
-                            </Form>
-
-                        </GridColumn>
-                    </GridRow>
-                </Grid>
-            </Segment>
-        </>
+        </GamePlayLayOut>
 
 
     );
