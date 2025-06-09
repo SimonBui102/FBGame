@@ -1,4 +1,4 @@
-﻿import { useParams } from "react-router-dom";
+﻿import { useNavigate, useParams } from "react-router-dom";
 import { Button, Card, CardGroup, Form, Header } from "semantic-ui-react";
 import type { GameDefinitionDto } from "../models/gameDefinitionDto";
 import { useEffect, useState, type ChangeEvent } from "react";
@@ -6,10 +6,12 @@ import apiConnector from "../api/apiConnector";
 import GamePlayLayOut from "./GamePlayLayout";
 import type { GameSetupDto } from "../models/gameSetupDto";
 
+
+
 export default function GameRule() {
 
     const { id } = useParams();
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const [gameDefinition, setGameDefinition] = useState<GameDefinitionDto>({
 
@@ -45,7 +47,17 @@ export default function GameRule() {
 
     };
 
-    const handleSubmit = () => { console.log (gameSetup)}
+    const handleSubmit = async () => {
+
+        //API connector send the infomration to back end.
+        const createGameSessionData = await apiConnector.createGameSession(gameSetup, gameDefinition.id!.toString());
+     
+        navigate(`/gamesessions/${createGameSessionData.gameSessionId}`, { state: { gameDefinitionState: gameDefinition, createGameSessionState:createGameSessionData} });
+  
+    }
+
+
+
     const left = (
         <CardGroup itemsPerRow="3" centered>
 
@@ -72,7 +84,7 @@ export default function GameRule() {
     );
 
     const right = (
-
+        /////////////////////////////////// Input validation
         <Form onSubmit={handleSubmit} autoComplete='off' className='ui inverted form'>
             <Form.Input label="Player's Name: " placeholder='Name' name='playerName' value={ gameSetup.playerName} onChange={handleChange} />
             <Form.Input label='Duration (s): ' type='number' name='duration' value={gameSetup.duration.toString()} onChange={handleChange} />

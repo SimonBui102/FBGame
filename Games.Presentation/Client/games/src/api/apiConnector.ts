@@ -7,6 +7,9 @@ import type { GetGameDefinitionByIdResponse } from "../models/getGameDefinitionB
 import type { CreateGameSessionDto } from "../models/createGameSessionDto.ts";
 import type { GameSetupDto } from "../models/gameSetupDto.ts";
 import type { CreateGameSessionResponse } from "../models/createGameSessionResponse.ts";
+import type { PlayerAnswerSubmissionDto } from "../models/playerAnswerSubmissionDto.ts";
+import type { SubmitGameSessionAnswerDto } from "../models/SubmitGameSessionAnswerDto.ts";
+import type { SubmitGameSessionAnswerResponse } from "../models/SubmitGameSessionAnswerResonse.ts";
 
 const apiConnector = {
 
@@ -48,7 +51,9 @@ const apiConnector = {
         try {
 
             const response = await axios.post<CreateGameSessionResponse>(`${API_BASE_URL}/gamesessions/${gameDefinitionId}`, gameSetup);
-            return response.data.createGameSessiondDto;
+            console.log(response.data.createGameSessionDto);
+            return response.data.createGameSessionDto;
+            
 
         } catch (error) {
 
@@ -57,6 +62,22 @@ const apiConnector = {
 
 
         }
+
+
+    },
+
+
+    submitGameSession: async (playerSubmission: PlayerAnswerSubmissionDto, gameSessionId: string): Promise<SubmitGameSessionAnswerDto> => {
+
+        try {
+            const response = await axios.post<SubmitGameSessionAnswerResponse>(`${API_BASE_URL}/gamesessions/${gameSessionId}/guesses`, playerSubmission);
+            return response.data.submitGameSessionAnswerDto;
+        } catch (error) {
+            console.log(error);
+            throw (error);
+
+        }
+        
 
 
     },
