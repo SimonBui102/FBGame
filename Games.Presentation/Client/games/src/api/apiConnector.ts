@@ -8,8 +8,9 @@ import type { CreateGameSessionDto } from "../models/createGameSessionDto.ts";
 import type { GameSetupDto } from "../models/gameSetupDto.ts";
 import type { CreateGameSessionResponse } from "../models/createGameSessionResponse.ts";
 import type { PlayerAnswerSubmissionDto } from "../models/playerAnswerSubmissionDto.ts";
-import type { SubmitGameSessionAnswerDto } from "../models/SubmitGameSessionAnswerDto.ts";
-import type { SubmitGameSessionAnswerResponse } from "../models/SubmitGameSessionAnswerResonse.ts";
+import type { SubmitGameSessionAnswerResponse } from "../models/submitGameSessionAnswerResonse.ts";
+import type { SubmitGameSessionAnswerDto } from "../models/submitGameSessionAnswerDto.ts";
+
 
 const apiConnector = {
 

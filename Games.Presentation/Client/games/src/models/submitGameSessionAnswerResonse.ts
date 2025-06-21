@@ -1,4 +1,6 @@
-﻿import type { SubmitGameSessionAnswerDto } from "./SubmitGameSessionAnswerDto";
+﻿import type { SubmitGameSessionAnswerDto } from "./submitGameSessionAnswerDto";
+
+
 
 export interface SubmitGameSessionAnswerResponse {
     submitGameSessionAnswerDto: SubmitGameSessionAnswerDto
