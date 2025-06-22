@@ -46,7 +46,31 @@ public class CreateGameDefinitionCommandHandlerTest
             var saved = await context.GameDefinitions.Include(g => g.GameRules).SingleAsync();
 
             Assert.Equal(returnedId,saved.Id);
+            Assert.Equal("Test Author", saved.AuthorName);
+            Assert.Equal("Test Game", saved.GameName);
+            Assert.Equal(1,saved.MinNumber);
+            Assert.Equal(100,saved.MaxNumber);
 
+            Assert.Collection(saved.GameRules,
+
+                r =>
+                {
+                    Assert.Equal(3,r.Divisor);
+                    Assert.Equal("Fizz", r.Word);
+
+
+                },
+
+                r =>
+                {
+                    Assert.Equal(5,r.Divisor);
+                    Assert.Equal("Buzz",r.Word);
+
+
+                }
+
+
+            );
         };
 
       

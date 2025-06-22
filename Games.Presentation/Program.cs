@@ -1,4 +1,5 @@
 using Games.Application;
+using Games.Application.Helpers;
 using Games.Infrastructure;
 using Games.Presentation.Modules;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<IRandomNumberHelper, RandomNumberHelper>();
+builder.Services.AddSingleton<IAnswerHelper, AnswerHelper>();
 builder.Services.AddDbContext<GamesDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

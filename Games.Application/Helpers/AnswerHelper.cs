@@ -3,9 +3,9 @@ using Games.Domain.Entities;
 
 namespace Games.Application.Helpers;
 
-public static class AnswerHelper
+public  class AnswerHelper:IAnswerHelper
 {
-    public static string GenerateCorrectAnswer(IEnumerable<GameRule> gameRules, int randomNumber)
+    public  string GenerateCorrectAnswer(IEnumerable<GameRule> gameRules, int randomNumber)
     {
 
         if (gameRules is null)
@@ -43,7 +43,7 @@ public static class AnswerHelper
 
 
 
-    public static bool ValidatePlayerAnswer(string correctAnswer, string playerAnswer)
+    public  bool ValidatePlayerAnswer(string correctAnswer, string playerAnswer)
     {
 
         if (string.IsNullOrWhiteSpace(playerAnswer))

@@ -1,12 +1,12 @@
 ﻿namespace Games.Application.Helpers;
 
-public static class RandomNumberHelper
+public  class RandomNumberHelper:IRandomNumberHelper
 {
 
-    private static readonly Random _random = new Random();
-    private static readonly Dictionary<int,HashSet<int>> _useNumber = new Dictionary<int,HashSet<int>>();
+    private readonly Random _random = new Random();
+    private readonly Dictionary<int,HashSet<int>> _useNumber = new Dictionary<int,HashSet<int>>();
 
-    public static int GetNextUniqueRandomNumber(int sessionId, int min, int max)
+    public int GetNextUniqueRandomNumber(int sessionId, int min, int max)
     {
 
         if (!_useNumber.TryGetValue(sessionId, out var used))

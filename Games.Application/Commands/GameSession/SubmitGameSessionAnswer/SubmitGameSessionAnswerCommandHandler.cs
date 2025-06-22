@@ -11,11 +11,14 @@ public class SubmitGameSessionAnswerCommandHandler : IRequestHandler<SubmitGameS
 {
 
     private readonly GamesDbContext _gameDbContext;
+    private readonly IRandomNumberHelper _randomNumberHelper;
+    private readonly IAnswerHelper _answerHelper;
 
-    public SubmitGameSessionAnswerCommandHandler(GamesDbContext gamesDbContext)
+    public SubmitGameSessionAnswerCommandHandler(GamesDbContext gamesDbContext, IRandomNumberHelper randomNumberHelper, IAnswerHelper answerHelper)
     {
         _gameDbContext = gamesDbContext;
-        
+        _randomNumberHelper = randomNumberHelper;
+        _answerHelper = answerHelper;
     }
 
     public async Task<SubmitGameSessionAnswerResponse> Handle(SubmitGameSessionAnswerCommand request, CancellationToken cancellationToken)
@@ -39,11 +42,11 @@ public class SubmitGameSessionAnswerCommandHandler : IRequestHandler<SubmitGameS
 
         
         // Generate Correct Answer
-        var correctAnswer = AnswerHelper.GenerateCorrectAnswer(rules, request.RandomNumber);
+        var correctAnswer = _answerHelper.GenerateCorrectAnswer(rules, request.RandomNumber);
         //Check if it is Correct
             // If its correct then increase the NumberOfCorrect in the game session entity
             // If its incorrect then increase the NumberOfCorrect in the game session entiy
-            var isPlayerAnswerCorrect = AnswerHelper.ValidatePlayerAnswer(correctAnswer, request.PlayerAnswer);
+            var isPlayerAnswerCorrect = _answerHelper.ValidatePlayerAnswer(correctAnswer, request.PlayerAnswer);
             if (isPlayerAnswerCorrect)
             {
                 gameSession.NumberOfCorrectAnswer++;
@@ -55,7 +58,7 @@ public class SubmitGameSessionAnswerCommandHandler : IRequestHandler<SubmitGameS
             //Save change async.
            await _gameDbContext.SaveChangesAsync(cancellationToken);
            var randomNumber =
-               RandomNumberHelper.GetNextUniqueRandomNumber(gameSession.Id, gameSession.GameDefinition.MinNumber,
+               _randomNumberHelper.GetNextUniqueRandomNumber(gameSession.Id, gameSession.GameDefinition.MinNumber,
                    gameSession.GameDefinition.MaxNumber);
         //Create a variable has a type of SubmitGameSessionAnswerResponse.
         //Get NextNumber

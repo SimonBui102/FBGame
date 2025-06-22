@@ -11,10 +11,11 @@ public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCo
 {
 
     private readonly GamesDbContext _gamesDbContext;
-
-    public CreateGameSessionCommandHandler(GamesDbContext gamesDbContext)
+    private readonly IRandomNumberHelper _randomNumberHelper;
+    public CreateGameSessionCommandHandler(GamesDbContext gamesDbContext, IRandomNumberHelper randomNumberHelper)
     {
         _gamesDbContext = gamesDbContext;
+        _randomNumberHelper = randomNumberHelper;
     }
     public async Task<CreateGameSessionResponse> Handle(CreateGameSessionCommand request, CancellationToken cancellationToken)
     {
@@ -47,7 +48,7 @@ public class CreateGameSessionCommandHandler:IRequestHandler<CreateGameSessionCo
         await _gamesDbContext.SaveChangesAsync(cancellationToken);
 
         var randomNumber =
-            RandomNumberHelper.GetNextUniqueRandomNumber(newGameSession.Id, gameDefinition.MinNumber,
+            _randomNumberHelper.GetNextUniqueRandomNumber(newGameSession.Id, gameDefinition.MinNumber,
                 gameDefinition.MaxNumber);
         var createGameSessionDto = new CreateGameSessionDto(newGameSession.Id, newGameSession.PlayerName,
             newGameSession.StartTime, newGameSession.EndTime, randomNumber);
