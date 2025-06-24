@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gameform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gameform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\game.application.tests\\submitgamesessionanswercommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|solutionrelative:game.application.tests\\submitgamesessionanswercommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamesession\\creategamesession\\creategamesessioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamesession\\creategamesession\\creategamesessioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\game.application.tests\\creategamesessioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|solutionrelative:game.application.tests\\creategamesessioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\game.application.tests\\creategamedefinitioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|solutionrelative:game.application.tests\\creategamedefinitioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\helpers\\answerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\helpers\\answerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\helpers\\randomnumberhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\helpers\\randomnumberhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{645E8A80-8A4B-4645-B947-A2BDB6B7700A}|Games.Contracts\\Games.Contracts.csproj|solutionrelative:games.contracts\\requests\\gamedefinitions\\creategamedefinitionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\router\\routes.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\router\\routes.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -70,30 +62,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 648,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "GameForm.tsx",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
+              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
+              "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-24T10:19:25.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateGameSessionCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "RelativeToolTip": "Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwD0AAAAKAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAD0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T09:56:04.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SubmitGameSessionAnswerCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "RelativeToolTip": "Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAwFwAAAAAAAAA",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAuwM4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T09:48:11.749Z",
               "EditorCaption": ""
@@ -108,8 +117,7 @@
               "RelativeToolTip": "Games.Infrastructure\\GamesDbContext.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T11:50:12.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T11:50:12.307Z"
             },
             {
               "$type": "Document",
@@ -121,8 +129,7 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\models\\createGameSessionDto.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-27T06:39:25.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T06:39:25.044Z"
             },
             {
               "$type": "Document",
@@ -138,19 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "GameTable.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwC8AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-26T05:23:21.958Z"
+              "WhenOpened": "2025-05-26T05:23:21.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Routes.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
@@ -162,19 +170,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "GameTableItem.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-26T05:23:19.011Z"
+              "WhenOpened": "2025-05-26T05:23:19.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "App.css",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\App.css",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\App.css",
@@ -186,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "axiosInterceptor.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
@@ -204,148 +213,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "4cc56192-3f81-4b9e-b366-e8f580cf065b",
+        "Id": "8b29cbd9-4a59-422b-b8d3-41555d4fcc66",
         "Display": 1,
-        "X": 471,
-        "Y": 248,
-        "Width": 1070,
-        "Height": 518,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateGameDefinitionCommandHandlerTest.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameDefinitionCommandHandlerTest.cs",
-              "RelativeDocumentMoniker": "Game.Application.Tests\\CreateGameDefinitionCommandHandlerTest.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameDefinitionCommandHandlerTest.cs",
-              "RelativeToolTip": "Game.Application.Tests\\CreateGameDefinitionCommandHandlerTest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwDEAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T11:01:05.14Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "6cc2322d-aecf-497b-8d52-6ccb7c45d739",
-        "Display": 1,
-        "X": 692,
-        "Y": 324,
-        "Width": 1070,
-        "Height": 518,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RandomNumberHelper.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\RandomNumberHelper.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Helpers\\RandomNumberHelper.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\RandomNumberHelper.cs",
-              "RelativeToolTip": "Games.Application\\Helpers\\RandomNumberHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:06:23.972Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "c6bd17ef-1767-4131-a4c6-5740d0102aed",
-        "Display": 1,
-        "X": 762,
-        "Y": 252,
-        "Width": 1070,
-        "Height": 518,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateGameSessionCommandHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\CreateGameSession\\CreateGameSessionCommandHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameSession\\CreateGameSession\\CreateGameSessionCommandHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\CreateGameSession\\CreateGameSessionCommandHandler.cs",
-              "RelativeToolTip": "Games.Application\\Commands\\GameSession\\CreateGameSession\\CreateGameSessionCommandHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:22:14.289Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "d76785b8-ab8d-4e9e-8df1-f5b4da9ae348",
-        "Display": 1,
-        "X": 582,
-        "Y": 365,
-        "Width": 1070,
-        "Height": 473,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubmitGameSessionAnswerCommandHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "RelativeToolTip": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:43:48.423Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e4eda73d-8cb7-4a64-b8f6-4ce5941ab51b",
-        "Display": 1,
-        "X": 742,
-        "Y": 369,
-        "Width": 1070,
-        "Height": 473,
+        "X": 917,
+        "Y": 226,
+        "Width": 1008,
+        "Height": 495,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -356,14 +229,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SubmitGameSessionAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "RelativeToolTip": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T08:23:51.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f53d31cc-01a4-4978-9b87-103ee79196eb",
+        "Display": 1,
+        "X": 22,
+        "Y": 286,
+        "Width": 906,
+        "Height": 530,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AnswerHelper.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\AnswerHelper.cs",
               "RelativeDocumentMoniker": "Games.Application\\Helpers\\AnswerHelper.cs",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\AnswerHelper.cs",
               "RelativeToolTip": "Games.Application\\Helpers\\AnswerHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:06:25.06Z",
+              "WhenOpened": "2025-06-24T09:45:19.559Z",
               "EditorCaption": ""
             }
           ]

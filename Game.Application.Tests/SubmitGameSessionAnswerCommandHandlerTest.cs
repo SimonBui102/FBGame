@@ -1,6 +1,7 @@
 ﻿using Azure.Core;
 using Games.Application.Commands.GameSession.SubmitGameSessionAnswer;
 using Games.Application.Helpers;
+using Games.Contracts.Responses;
 using Games.Domain.Entities;
 using Games.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +11,7 @@ namespace Game.Application.Tests;
 
 public class SubmitGameSessionAnswerCommandHandlerTest
 {
-    private readonly DbContextOptions<GamesDbContext> _options;
+    private  DbContextOptions<GamesDbContext> _options = null;
     private readonly Mock<IRandomNumberHelper> _randomNumberHelperMock;
     private readonly Mock<IAnswerHelper> _answerHelperMock;
 
@@ -19,8 +20,7 @@ public class SubmitGameSessionAnswerCommandHandlerTest
         _randomNumberHelperMock = new Mock<IRandomNumberHelper>();
         _answerHelperMock = new Mock<IAnswerHelper>();
 
-        _options = new DbContextOptionsBuilder<GamesDbContext>().UseInMemoryDatabase("TestDB_SubmitGameSessionAnswer")
-            .Options;
+        
 
     }
 
@@ -30,7 +30,8 @@ public class SubmitGameSessionAnswerCommandHandlerTest
     {
 
         //Arrange
-
+        _options = new DbContextOptionsBuilder<GamesDbContext>().UseInMemoryDatabase("TestDB_GameSessionIsNUll_SubmitGameSessionAnswer")
+            .Options;
         using (var context = new GamesDbContext(_options))
         {
             //Create gameDefinition entity and gameSession entity.
@@ -56,7 +57,7 @@ public class SubmitGameSessionAnswerCommandHandlerTest
 
             //Assert
 
-            await Assert.ThrowsAsync<KeyNotFoundException>(act);
+            Assert.ThrowsAsync<KeyNotFoundException>(act);
 
 
         }
@@ -72,7 +73,8 @@ public class SubmitGameSessionAnswerCommandHandlerTest
     [Fact]
     public async Task Handle_RunOutOfTime_SubmitGameSessionAnswerAndReturnInvalidOperationException()
     {
-
+        _options = new DbContextOptionsBuilder<GamesDbContext>().UseInMemoryDatabase("TestDB_RunOutOfTime_SubmitGameSessionAnswer")
+            .Options;
         using (var context = new GamesDbContext(_options))
         {
             //Create gameDefinition entity and gameSession entity.
@@ -106,6 +108,72 @@ public class SubmitGameSessionAnswerCommandHandlerTest
         }
 
         ;
+
+
+    }
+
+    [Fact]
+    public async Task Handle_ValidCommand_SubmitGameSessionAnswerAndReturnSubmitGameSessionAnswerResponse()
+    {
+
+        _options = new DbContextOptionsBuilder<GamesDbContext>().UseInMemoryDatabase("TestDB_ValidCommand_SubmitGameSessionAnswer")
+            .Options;
+
+        using (var context = new GamesDbContext(_options))
+        {
+            //Create gameDefinition entity and gameSession entity.
+            var gameDefinition = CreateAGameDefinition();
+            var gameSession = CreateAGameSession();
+
+            gameSession.GameDefinition = gameDefinition;
+
+            
+
+            await context.GameDefinitions.AddAsync(gameDefinition);
+            await context.GameSessions.AddAsync(gameSession);
+            await context.SaveChangesAsync();
+
+
+            _answerHelperMock.Setup(h => h.GenerateCorrectAnswer(gameDefinition.GameRules!, 50)).Returns("Buzz");
+
+            _answerHelperMock.Setup(h => h.ValidatePlayerAnswer("Buzz", "Buzz")).Returns(true);
+            _randomNumberHelperMock.Setup(r =>
+                    r.GetNextUniqueRandomNumber(gameSession.Id, gameDefinition.MinNumber, gameDefinition.MaxNumber))
+                .Returns(52);
+
+
+            var handler =
+                new SubmitGameSessionAnswerCommandHandler(context, _randomNumberHelperMock.Object,
+                    _answerHelperMock.Object);
+
+            var command = new SubmitGameSessionAnswerCommand(1, 50, "Buzz");
+
+
+            //Act
+
+            var result = await handler.Handle(command, CancellationToken.None);
+
+            //Assert
+
+            Assert.IsType<SubmitGameSessionAnswerResponse>(result);
+            Assert.Equal(true, result.SubmitGameSessionAnswerDto.IsCorrect);
+            Assert.Equal("Buzz", result.SubmitGameSessionAnswerDto.CorrectAnswer);
+         
+            Assert.Equal(52, result.SubmitGameSessionAnswerDto.NextRandomNumber);
+            Assert.Equal(1, result.SubmitGameSessionAnswerDto.Correct);
+            Assert.Equal(0, result.SubmitGameSessionAnswerDto.Incorrect);
+
+                //verify mocks were involved
+
+                _answerHelperMock.Verify(h => h.GenerateCorrectAnswer(gameDefinition.GameRules!, 50),Times.Once);
+                _randomNumberHelperMock.Verify(h => h.GetNextUniqueRandomNumber(1, gameDefinition.MinNumber, gameDefinition.MaxNumber),Times.Once);
+
+
+        }
+
+        ;
+
+
 
 
     }
