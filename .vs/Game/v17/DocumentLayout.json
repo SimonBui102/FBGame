@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\vitest.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\vitest.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\tests\\main.test.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\tests\\main.test.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\tests\\setup.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\tests\\setup.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gameform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gameform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\components\\gametableitem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\components\\gametable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -21,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\game.application.tests\\creategamesessioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C70A3E9F-05CC-4918-9E3F-179805B74F3B}|Game.Application.Tests\\Game.Application.Tests.csproj|solutionrelative:game.application.tests\\creategamesessioncommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\helpers\\answerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\helpers\\answerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\src\\interceptor\\axiosinterceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\src\\interceptor\\axiosinterceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 648,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +74,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "setup.ts",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\setup.ts",
+              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\tests\\setup.ts",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\setup.ts",
+              "RelativeToolTip": "Games.Presentation\\Client\\games\\tests\\setup.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-07T10:09:57.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vitest.config.ts",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\vitest.config.ts",
+              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\vitest.config.ts",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\vitest.config.ts",
+              "RelativeToolTip": "Games.Presentation\\Client\\games\\vitest.config.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-04T08:41:17.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.test.tsx",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\main.test.tsx",
+              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\tests\\main.test.tsx",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\main.test.tsx",
+              "RelativeToolTip": "Games.Presentation\\Client\\games\\tests\\main.test.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-04T08:32:11.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\package.json",
+              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\package.json",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\package.json",
+              "RelativeToolTip": "Games.Presentation\\Client\\games\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T08:27:06.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameForm.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
@@ -78,12 +132,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
               "ViewState": "AQIAAFEAAAAAAAAAAAAYwGQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-24T10:19:25.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:19:25.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CreateGameSessionCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
@@ -91,12 +144,11 @@
               "RelativeToolTip": "Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAAAD0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:56:04.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:56:04.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SubmitGameSessionAnswerCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
@@ -104,12 +156,11 @@
               "RelativeToolTip": "Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "ViewState": "AQIAAL8AAAAAAAAAAAAuwM4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:48:11.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:48:11.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "GamesDbContext.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Infrastructure\\GamesDbContext.cs",
               "RelativeDocumentMoniker": "Games.Infrastructure\\GamesDbContext.cs",
@@ -121,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "createGameSessionDto.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\models\\createGameSessionDto.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\models\\createGameSessionDto.ts",
@@ -133,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CreateGameDefinitionRequest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
               "RelativeDocumentMoniker": "Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
@@ -145,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "GameTable.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
@@ -153,12 +204,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-26T05:23:21.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T05:23:21.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Routes.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
@@ -170,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GameTableItem.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
@@ -178,12 +228,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-26T05:23:19.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T05:23:19.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "App.css",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\App.css",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\App.css",
@@ -192,86 +241,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-21T10:02:32.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "axiosInterceptor.ts",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
-              "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
-              "RelativeToolTip": "Games.Presentation\\Client\\games\\src\\interceptor\\axiosInterceptor.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-05-21T02:40:41.828Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "8b29cbd9-4a59-422b-b8d3-41555d4fcc66",
-        "Display": 1,
-        "X": 917,
-        "Y": 226,
-        "Width": 1008,
-        "Height": 495,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SubmitGameSessionAnswerCommandHandler.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "RelativeToolTip": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwDIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:23:51.699Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f53d31cc-01a4-4978-9b87-103ee79196eb",
-        "Display": 1,
-        "X": 22,
-        "Y": 286,
-        "Width": 906,
-        "Height": 530,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnswerHelper.cs",
-              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\AnswerHelper.cs",
-              "RelativeDocumentMoniker": "Games.Application\\Helpers\\AnswerHelper.cs",
-              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Helpers\\AnswerHelper.cs",
-              "RelativeToolTip": "Games.Application\\Helpers\\AnswerHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:45:19.559Z",
-              "EditorCaption": ""
             }
           ]
         }
