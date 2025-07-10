@@ -15,7 +15,7 @@ export default function GameForm() {
         authorName: '',
         gameName: '',
         minNumber: 0,
-        maxNumber: 0,
+        maxNumber: 100,
         createDate: undefined,
         rules:[]
 
