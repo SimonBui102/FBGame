@@ -149,7 +149,7 @@ export default function GamePlay() {
                         <p>Correct:</p>
                     </GridColumn>
                     <GridColumn style={{ 'padding': '5px 0px 0px 14px' }}>
-                        <p>{playerInfomation.correct}</p>
+                        <p data-testid="correct-count">{playerInfomation.correct}</p>
                     </GridColumn>
                 </GridRow>
                 <GridRow style={{ 'padding': '0px 0px' }} >
@@ -205,6 +205,7 @@ export default function GamePlay() {
                     <Header inverted as="h2" style={{ 'marginTop': '0px' }}>{randomNumber}</Header>
                     <Form onSubmit={handleSubmit} autoComplete='off' size='large' >
                         <Form.Input
+                            id='playerAnswer'
                             onChange={handleChange}
                             type='text'
                             placeholder="Answer"

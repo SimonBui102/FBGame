@@ -87,7 +87,7 @@ export default function GameRule() {
         /////////////////////////////////// Input validation
         <Form onSubmit={handleSubmit} autoComplete='off' className='ui inverted form'>
             <Form.Input label="Player's Name: " placeholder='Name' name='playerName' value={ gameSetup.playerName} onChange={handleChange} />
-            <Form.Input label='Duration (s): ' type='number' name='duration' value={gameSetup.duration.toString()} onChange={handleChange} />
+            <Form.Input id= 'playerDuration' label='Duration (s): ' type='number' name='duration' value={gameSetup.duration.toString()} onChange={handleChange} />
             <Button floated='right' positive type='submit' content='Submit'></Button>
 
 

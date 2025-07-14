@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamesession\\submitgamesessionanswer\\submitgamesessionanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\games.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\games.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\vitest.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\vitest.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 648,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SubmitGameSessionAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "RelativeToolTip": "Games.Application\\Commands\\GameSession\\SubmitGameSessionAnswer\\SubmitGameSessionAnswerCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:45:32.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Games.Presentation.csproj",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Games.Presentation.csproj",
+              "RelativeDocumentMoniker": "Games.Presentation\\Games.Presentation.csproj",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Games.Presentation.csproj",
+              "RelativeToolTip": "Games.Presentation\\Games.Presentation.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-14T10:40:55.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "setup.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\setup.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\tests\\setup.ts",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "vitest.config.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\vitest.config.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\vitest.config.ts",
@@ -94,12 +128,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\vitest.config.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-04T08:41:17.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T08:41:17.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.test.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\tests\\main.test.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\tests\\main.test.tsx",
@@ -107,12 +140,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\tests\\main.test.tsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-04T08:32:11.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T08:32:11.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "package.json",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\package.json",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\package.json",
@@ -124,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GameForm.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameForm.tsx",
@@ -136,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CreateGameSessionCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\CreateGameSessionCommandHandlerTest.cs",
@@ -148,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SubmitGameSessionAnswerCommandHandlerTest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Game.Application.Tests\\SubmitGameSessionAnswerCommandHandlerTest.cs",
@@ -160,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "GamesDbContext.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Infrastructure\\GamesDbContext.cs",
               "RelativeDocumentMoniker": "Games.Infrastructure\\GamesDbContext.cs",
@@ -172,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "createGameSessionDto.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\models\\createGameSessionDto.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\models\\createGameSessionDto.ts",
@@ -184,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CreateGameDefinitionRequest.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
               "RelativeDocumentMoniker": "Games.Contracts\\Requests\\GameDefinitions\\CreateGameDefinitionRequest.cs",
@@ -196,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameTable.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
@@ -208,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Routes.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
@@ -220,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameTableItem.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
@@ -232,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "App.css",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\App.css",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\App.css",
