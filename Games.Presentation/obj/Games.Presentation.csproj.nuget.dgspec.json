@@ -393,11 +393,9 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
-            "Microsoft.TypeScript.MSBuild": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[5.8.3, )"
+              "version": "[1.20.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

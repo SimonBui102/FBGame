@@ -16,13 +16,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IRandomNumberHelper, RandomNumberHelper>();
 builder.Services.AddSingleton<IAnswerHelper, AnswerHelper>();
 builder.Services.AddDbContext<GamesDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString")));
 
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("CorsPolicy", policyBuilder =>
     {
-        policyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:5173");
+        policyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:5000");
 
     });
 
@@ -37,6 +37,10 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    using var serviceScope = app.Services.CreateScope();
+    using var dbContext = serviceScope.ServiceProvider.GetService<GamesDbContext>();
+    dbContext?.Database.Migrate();
 }
 
 app.UseCors("CorsPolicy");

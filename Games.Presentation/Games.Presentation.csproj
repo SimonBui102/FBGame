@@ -4,11 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>478f90fe-d480-4a37-909c-37cb71ff222f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+	 
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Client\games\src\components\GameTable.tsx" />
-  </ItemGroup>
+	
+
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.5.0" />
@@ -18,10 +21,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
-    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.8.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+   
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
@@ -35,8 +36,8 @@
     <Folder Include="Client\games\src\assets\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <TypeScriptCompile Include="Client\games\src\components\GameTable.tsx" />
-  </ItemGroup>
+
+
+
 
 </Project>
