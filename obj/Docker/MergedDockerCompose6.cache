@@ -1,0 +1,134 @@
+name: dockercompose3508350822067479840
+services:
+  database.server:
+    container_name: database.server
+    environment:
+      ACCEPT_EULA: "y"
+      SA_PASSWORD: SuperPassword123
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - exit 0
+      timeout: 3s
+      interval: 10s
+      retries: 10
+      start_period: 10s
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: E:\Job\Soft_dev\JRM\FZGame\Game\sqlserver\data
+        target: /var/opt/mssql/data
+        bind:
+          create_host_path: true
+      - type: bind
+        source: E:\Job\Soft_dev\JRM\FZGame\Game\sqlserver\log
+        target: /var/opt/mssql/log
+        bind:
+          create_host_path: true
+  games.api:
+    build:
+      context: E:\Job\Soft_dev\JRM\FZGame\Game
+      dockerfile: Games.Presentation/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Games.Presentation
+    container_name: games.api
+    depends_on:
+      database.server:
+        condition: service_healthy
+        required: true
+    entrypoint:
+      - dotnet
+      - --roll-forward
+      - Major
+      - /VSTools/DistrolessHelper/DistrolessHelper.dll
+      - --wait
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "3000"
+    image: games.api
+    labels:
+      com.microsoft.visual-studio.project-name: Games.Presentation
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/Games.Presentation.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3000
+        published: "3000"
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\Admin\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Admin\AppData\Roaming\ASP.NET\Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Admin\AppData\Roaming\ASP.NET\Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Admin\AppData\Roaming\Microsoft\UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Admin\AppData\Roaming\Microsoft\UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: E:\VS_2022\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
+        target: /VSTools
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: E:\VS_2022\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+  games.client:
+    build:
+      context: E:\Job\Soft_dev\JRM\FZGame\Game\Games.Presentation\Client\games
+      dockerfile: Dockerfile
+    container_name: games.client
+    depends_on:
+      games.api:
+        condition: service_started
+        required: true
+    image: games.client
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose3508350822067479840_default

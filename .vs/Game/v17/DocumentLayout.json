@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912FEFEF-59E0-41DC-BDB9-61D3851EBF54}|Games.Infrastructure\\Games.Infrastructure.csproj|solutionrelative:games.infrastructure\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B69B04A-20AC-4073-9159-55E3CE9A08BD}|Games.Application\\Games.Application.csproj|solutionrelative:games.application\\commands\\gamedefinition\\creategamedefinition\\creategamedefinitioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FECF5055-ADCB-454A-955A-979850039F17}|docker-compose.dcproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{FECF5055-ADCB-454A-955A-979850039F17}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\client\\games\\config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\client\\games\\config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\games.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08883CE8-3362-45A7-8D81-52070377BDE6}|Games.Presentation\\Games.Presentation.csproj|solutionrelative:games.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FECF5055-ADCB-454A-955A-979850039F17}|docker-compose.dcproj|e:\\job\\soft_dev\\jrm\\fzgame\\game\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 648,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +90,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "CreateGameDefinitionCommandHandler.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
+              "RelativeToolTip": "Games.Application\\Commands\\GameDefinition\\CreateGameDefinition\\CreateGameDefinitionCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:20:26.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamesDbContext.cs",
+              "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Infrastructure\\GamesDbContext.cs",
+              "RelativeDocumentMoniker": "Games.Infrastructure\\GamesDbContext.cs",
+              "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Infrastructure\\GamesDbContext.cs",
+              "RelativeToolTip": "Games.Infrastructure\\GamesDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:20:06.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "config.ts",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\config.ts",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\config.ts",
@@ -90,12 +124,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\config.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-24T00:39:07.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T00:39:07.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Games.Presentation.csproj",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Games.Presentation.csproj",
               "RelativeDocumentMoniker": "Games.Presentation\\Games.Presentation.csproj",
@@ -103,12 +136,11 @@
               "RelativeToolTip": "Games.Presentation\\Games.Presentation.csproj",
               "ViewState": "AQIAAA0AAAAAAAAAAAAuwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-23T10:24:25.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T10:24:25.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": ".dockerignore",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -116,12 +148,11 @@
               "RelativeToolTip": ".dockerignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-23T09:26:56.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T09:26:56.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Dockerfile",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\Dockerfile",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\Dockerfile",
@@ -129,12 +160,11 @@
               "RelativeToolTip": "Games.Presentation\\Client\\games\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-23T06:14:06.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:14:06.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Dockerfile",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Dockerfile",
               "RelativeDocumentMoniker": "Games.Presentation\\Dockerfile",
@@ -142,25 +172,24 @@
               "RelativeToolTip": "Games.Presentation\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-22T05:44:44.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T05:44:44.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAoAAAAKAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-07-22T05:44:07.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -172,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "package.json",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -184,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "package-lock.json",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\package-lock.json",
               "RelativeDocumentMoniker": "package-lock.json",
@@ -196,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -204,12 +233,11 @@
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-22T05:43:29.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T05:43:29.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\appsettings.json",
               "RelativeDocumentMoniker": "Games.Presentation\\appsettings.json",
@@ -217,25 +245,24 @@
               "RelativeToolTip": "Games.Presentation\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T04:46:10.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T04:46:10.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Games.Presentation\\Program.cs",
               "ToolTip": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Program.cs",
               "RelativeToolTip": "Games.Presentation\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T04:45:56.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "GameTable.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTable.tsx",
@@ -247,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Routes.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\router\\Routes.tsx",
@@ -259,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "GameTableItem.tsx",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\components\\GameTableItem.tsx",
@@ -271,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "App.css",
               "DocumentMoniker": "E:\\Job\\Soft_dev\\JRM\\FZGame\\Game\\Games.Presentation\\Client\\games\\src\\App.css",
               "RelativeDocumentMoniker": "Games.Presentation\\Client\\games\\src\\App.css",
