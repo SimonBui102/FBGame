@@ -30,7 +30,7 @@ To run this project:
     ```
 2. Navigate to the main project directory:
     ```
-    cd Games.Presentation
+    cd FBGame/Games.Presentation/
     ```
 3. Run the project on Docker
 - Docker Desktop need to be ready before running the project
